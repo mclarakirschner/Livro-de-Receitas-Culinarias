@@ -2,8 +2,8 @@
 
 
 ## 👥 Autores
-Maria Clara Kirschner Baz
-Sarah Ribeiro de Souza
+Maria Clara Kirschner Baz,
+Sarah Ribeiro de Souza,
 Alice Regina Leite Borges
 
 ## 📌 Descrição do Projeto
