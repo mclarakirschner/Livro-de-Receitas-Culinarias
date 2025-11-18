@@ -1,5 +1,7 @@
 # 🍽️ Livro de Receitas – Projeto Web com Supabase
 
+
+## 👥 Autores
 Maria Clara Kirschner Baz
 Sarah Ribeiro de Souza
 Alice Regina Leite Borges
@@ -16,6 +18,12 @@ O sistema permite:
 - Segurança com RLS (Row Level Security)  
 - Interface responsiva usando TailwindCSS  
 
+## 🛠️ Tecnologias Utilizadas
 
-## 🗂️ Estrutura do Projeto
+| Tecnologia | Finalidade 
+| HTML5 - Estrutura do site 
+| Tailwind CSS - Estilização 
+| JavaScript (ES Modules) -  Lógica da aplicação 
+| Supabase - Banco de dados + API + Auth 
+| SweetAlert2 - Alertas 
 
