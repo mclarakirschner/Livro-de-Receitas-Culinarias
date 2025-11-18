@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Culina Recipes</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.24.0/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.24.0/dist/sweetalert2.min.css">
+
+    <!-- Material Symbols do Google -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--Fontes-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Momo+Signature&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+</head>
+
+</head>
+
+<body class="bg-orange-100 min-h-screen flex flex-col items-center justify-center">
+
+    <!--Cabeçalho-->
+    <header
+        class="w-full fixed top-0 left-0 bg-amber-600 text-white p-4 flex flex-col md:flex-row items-center justify-between shadow-lg z-50">
+        <img src="images/livro.png" alt="Logo do site" class="h-16" />
+        <h1 class="text-xl font-light" style="font-family: 'Momo Signature', cursive;">Receitas Culinárias</h1>
+
+        <div class="flex items-center">
+            <a href="receitas.html" class="mr-4 flex items-center gap-1" style="font-family: 'Nunito', sans-serif;">
+                <span class="material-symbols-outlined">
+                    chef_hat
+                </span>
+                Receitas
+            </a>
+
+
+            <a href="categorias.html" class="mr-4 flex items-center gap-1" style="font-family: 'Nunito', sans-serif;">
+                <span class="material-symbols-outlined">
+                    grocery
+                </span>
+                Categorias
+            </a>
+
+            <button id="btnLogout"
+                class="bg-green-700 px-3 py-1 rounded flex items-center justify-center hover:bg-green-800 gap-1"
+                style="font-family: 'Nunito', sans-serif;">
+                <span class="material-symbols-outlined mr-1">logout</span>
+                Logout
+            </button>
+
+        </div>
+
+    </header>
+
+    <main class="flex flex-col items-center justify-center flex-grow text-center px-4 mt-24">
+        <img src="images/logo.png" alt="Logo do site" class="h-160" />
+        <p class="text-2xl text-green-900 font-semibold" style="font-family: 'Momo Signature', cursive;">
+            Seja bem-vindo(a) à sua <span class="text-amber-700">Cozinha Digital!</span>
+        </p>
+        <p class="mt-3 text-gray-700 text-lg max-w-2xl">
+            Aqui você pode cadastrar, organizar e descobrir suas melhores receitas.
+            Experimente novos sabores e mantenha tudo salvo em um só lugar!
+        </p>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="w-full bg-green-900 text-white text-center py-3 mt-10">
+        <p class="text-sm">© 2025 Receitas Culinárias </p>
+    </footer>
+
+</body>
+<script src="js/mainMenu.js" type="module"></script>
+
+</html>

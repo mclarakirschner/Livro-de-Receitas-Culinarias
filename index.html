@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Livro de receitas</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.24.0/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.24.0/dist/sweetalert2.min.css">
+</head>
+
+
+<body class="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center"
+    style="background-image: url('images/fundo.png'); background-size: cover;">
+
+
+    <!--Logo-->
+    <div>
+        <img src="images/livro.png" class="h-60">
+    </div>
+
+    <!--Formulário-->
+    <div class="bg-orange-300 bg-opacity-90 p-8 rounded-2xl shadow-xl w-80 backdrop-blur-sm text-center mb-20">
+
+        <div class="flex justify-center mb-8">
+            <img src="images/chef.svg" alt="Login" class="h-32">
+        </div>
+
+        <h1 class="text-xl mb-4 text-orange-800">Cadastro do Usuário</h1>
+
+        <form id="formLogin">
+            <input id="email" type="email" placeholder="Informe seu email" title="Digite seu email aqui"
+                class="border p-2 w-full mb-2">
+            <input id="password" type="password" placeholder="Informe sua senha" title="Digite a senha do sistema"
+                class="border p-2 w-full mb-2">
+
+            <button id="btnLogin" type="submit" class="bg-orange-500 text-white px-4 py-2 mt-4 w-full">Entrar</button>
+        </form>
+        <a href="novoUsuario.html" class="block text-center mt-2 text-sm text-amber-800 font-medium">Criar novo
+            usuário</a>
+
+    </div>
+</body>
+<script src="js/mainLogin.js" type="module"></script>
+
+</html>

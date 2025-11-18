@@ -1,0 +1,4 @@
+
+//Configurações do Supabase
+export const SUPABASE_URL = "https://frfpdedzocrzhlclvswj.supabase.co"
+export const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZyZnBkZWR6b2NyemhsY2x2c3dqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyNjEzNzgsImV4cCI6MjA3NzgzNzM3OH0.rsyN8h7NvG7xRoDese9BmdF74UEF2Xoa3YF43l7TI_Q"
